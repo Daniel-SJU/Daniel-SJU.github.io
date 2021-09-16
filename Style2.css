@@ -1,0 +1,97 @@
+@keyframes pop {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+body{
+    background-color:teal;
+    border: solid; 
+    border-color:white;
+    border-width:35px;
+    padding:10px
+ }
+
+ h2{
+     background-color: black;
+     text-align: center;
+     color: red;
+     padding-bottom: 20px;
+     animation-name: pop;
+     animation-duration: 5s;
+     animation-iteration-count: 5
+}
+ p{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 20px
+  }
+
+  span.z{
+      color:blue;
+  }
+
+  a.y{
+      color:green;
+      font-weight: bold
+  }
+
+img{
+-webkit-box-reflect: right;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 380px;
+  margin-right: auto;
+  
+}
+
+div{
+    text-align: center;
+}
+#left{
+    text-align: left;
+}
+
+#nice:hover {
+    width: 300px;
+    transition: width 2s, height 4s;
+
+    transition-timing-function: ease
+  }
+
+  table{
+      border-style:solid;
+      border-color: red;
+      border-width: 2px
+      
+  }
+ 
+  table th, table td{
+    
+    border: 1px solid white;
+    padding:5px;
+    text-align: center;
+    background-color: thistle
+  }
+  input {
+    width: 50%;
+    padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: 2px solid red;
+    border-radius: 4px;
+  }
+  input[type=submit]{
+      background-color: red;
+  }
+
+  @media print{
+      .screen_only{
+          display: none;
+      }
+  }
+
+  @media (min-width:600px) and (max-width:900px){
+    body{background-color: white;}
+  }
+
+  
