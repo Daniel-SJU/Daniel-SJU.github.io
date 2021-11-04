@@ -1,3 +1,81 @@
 Quiz1:[
-{
+ {
+    questionType : "true_false",
+    questionText : "Java is the second most popular language?",
+    correctAnswer : "true",
+    options : ["true", "false"],
+    feedback: ["Correct", "Incorrect"]
+  },
+   {
+    questionType : "true_false",
+    questionText : "The original name for Java was Oak.",
+    correctAnswer : "true",
+    options : ["true", "false"],
+    feedback: ["Correct", "Incorrect"]
+  },
+   {
+    questionType : "true_false",
+    questionText : "Java is said to have been created on purpose.",
+    correctAnswer : "false",
+    options : ["true", "false"],
+    feedback: ["Correct", "Incorrect"]
+  },
+   {
+    questionType : "true_false",
+    questionText : "In Java the meaning  of the final keyword is final",
+    correctAnswer : "false",
+    options : ["true", "false"],
+    feedback: ["Correct", "Incorrect"]
+  },
+   {
+    questionType : "true_false",
+    questionText : "Java is used by 95% of the enterprises as their primary language.",
+    correctAnswer : "true",
+    options : ["true", "false"],
+    feedback: ["Correct", "Incorrect"]
+  },
+  {
+    questionType : "text_input",
+    questionText : "How many times does Java get downloaded in one year?",
+    correctAnswer : "One billion",
+    answerFieldId : "answer_to_question"
+    feedback: ["Correct", "Incorrect"]
+  },
+   {
+    questionType : "text_input",
+    questionText : "What was the name of the team of engineers who developed Java?",
+    correctAnswer : "Green team",
+    answerFieldId : "answer_to_question"
+    feedback: ["Correct", "Incorrect"]
+  },
+   {
+    questionType : "text_input",
+    questionText : "The process of assigning a value to a variable is___________",
+    correctAnswer : "initialization",
+    answerFieldId : "answer_to_question"
+    feedback: ["Correct", "Incorrect"]
+  },
+   {
+    questionType : "text_input",
+    questionText : "A class that implements a table, which maps keys to values.",
+    correctAnswer : "Hash table",
+    answerFieldId : "answer_to_question"
+    feedback: ["Correct", "Incorrect"]
+  },
+   {
+    questionType : "text_input",
+    questionText : "What year was Java initiated?",
+    correctAnswer : "1991",
+    answerFieldId : "answer_to_question"
+    feedback: ["Correct", "Incorrect"]
+  },
+  {
+    questionType : "multiple_choice",
+    questionText : "Which name is a actual type of Loop in Java?",
+    options: ["for-loop", "switch-loop",],
+    correctAnswer : "for-loop",
+    feedback: ["Correct", "Incorrect"]
+  },
+  
+  
 ]
